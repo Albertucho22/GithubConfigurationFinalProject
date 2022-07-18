@@ -37,6 +37,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Log into Heroku
         env: 
-          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+          HEROKU_API_KEY: "9c290e67-f188-47fd-bcd3-df00d584f702"
         run: heroku container:login 
         
